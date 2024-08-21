@@ -22,14 +22,78 @@
 
 html,
 body {
-  background: var(--Light-grayish-blue-neutral);
-  font-size: var(--font-body);
-  font-family: var(--font-family-body);
-  margin-block: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: var(--Light-cyan);
+  font-size: var(--body-font-size);
+  font-family: var(--body-font-family);
+  font-weight: var(--body-weight);
+  background: var(--Dark-blue);
 }
 
 /* mobiles styles */
+.advice-card {
+  position: relative;
+  max-width: 600px;
+  margin-inline: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 2rem 1rem 3rem 1rem;
+  border-radius: 0.5rem;
+  background: var(--Dark-grayish-blue);
+}
+
+.advice-card h6 {
+  color: var(--Neon-green);
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.advice-card h6 span {
+  margin-left: 0.3rem;
+}
+
+.advice-card .dice-container {
+  position: absolute;
+  bottom: -25px;
+  padding: 0.5rem 0.75rem;
+  border-radius: 50%;
+  cursor: pointer;
+  background: var(--Neon-green);
+  transition: 0.3s all ease;
+}
+
+.advice-card .dice-container:hover {
+  box-shadow: 0 0 30px 5px rgba(83, 255, 170, 0.5);
+  transform: scale(1.1);
+}
 
 /* footer styles */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 
 /* desktop responsive styles */
+@media (min-width: 768px) {
+  html,
+  body {
+    padding: 0;
+  }
+
+  .advice-card {
+    margin-inline: auto;
+  }
+}
