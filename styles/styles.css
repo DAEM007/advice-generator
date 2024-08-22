@@ -60,6 +60,14 @@ body {
   margin-left: 0.3rem;
 }
 
+.advice-card .divider-mobile {
+  display: block;
+}
+
+.advice-card .divider-desktop {
+  display: none;
+}
+
 .advice-card .dice-container {
   position: absolute;
   bottom: -25px;
@@ -95,5 +103,13 @@ body {
 
   .advice-card {
     margin-inline: auto;
+  }
+
+  .advice-card .divider-desktop {
+    display: block;
+  }
+
+  .advice-card .divider-mobile {
+    display: none;
   }
 }
