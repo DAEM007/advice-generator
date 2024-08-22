@@ -13,8 +13,8 @@
 
 ### Links
 
-- solution URL - [daem-advice-generator-solution](https://github.com/DAEM007/testimonials-grid-section)
-- Live Site URL: [daem-advice-generator-live](https://testimonials-grid-section-ten-peach.vercel.app/)
+- solution URL - [daem-advice-generator-solution](https://github.com/DAEM007/advice-generator)
+- Live Site URL: [daem-advice-generator-live](https://advice-generator-seven-ashy.vercel.app/)
 
 ### Built with
 
